@@ -38,6 +38,9 @@ public class BankAccount {
     }
 
     public void deposit(int amount) {
-
+        if(amount>0)
+        {
+            creditLevel += amount;
+        }
     }
 }
